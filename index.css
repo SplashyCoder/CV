@@ -1,0 +1,56 @@
+.header{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(2,1fr);
+}
+.headerLeft{
+    position: relative;
+    top: 50px;
+    height: 150px;
+    grid-row: 1/3;
+    background: rgb(0, 0, 0);
+    background: linear-gradient(0deg, rgba(0,0,0,1) 50.2%, rgba(0,0,0,0) 50%);
+}
+
+.outerFrame{
+    position: relative;
+    top: 23px;
+}
+.innerFrame{
+    /* top: 26px; */
+    position: relative;
+    width: 200px;
+    border: #FAFF00 solid 5px;
+    overflow-y: hidden;
+
+}
+.photo{
+    /* top: 5px; */
+    display: block;
+    position: relative;
+    height: 160%;
+    width: 150%; 
+    left: -50px;
+}
+
+
+.titleBox{
+    display: flex;
+    color: #000;
+    background-color: #fff;
+    font-family: 'Russo One', sans-serif;
+}
+
+.title{
+    /* position: relative; */
+    margin: 0;
+    align-self: flex-end;
+}
+
+.subTitle{
+    height: 100px;
+
+    background-color: #000;
+    color: #FAFF00;
+    font-family: 'Russo One', sans-serif;
+}
