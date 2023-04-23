@@ -2,11 +2,16 @@
     --titles: #FFFF00;
     --text: #fff;
     --titlesFont: 'Russo One', sans-serif;
-    --textFont: 'Roboto Mono', monospace;;
+    --textFont: 'Roboto Mono', monospace;
+    --titlesSize:45px;
+    --subSize:35px;
+    --subSizeH2:30px;
+    --subSizeH3:25px;
+    --textSize:20px;
 }
 body{
     margin: 0;
-    width: 100vw;
+    /* width: 100vw; */
 }
 .header{
     display: grid;
@@ -14,6 +19,7 @@ body{
     grid-template-rows: repeat(2,1fr);
     background-color: #000;
     height: 240px;
+    width: 100%;
 }
 .headerLeft{
     position: relative;
@@ -51,7 +57,7 @@ body{
 
 
 .titleBox{
-    height: 150px;
+    height: 160px;
     display: flex;
     color: #000;
     background-color: #fff;
@@ -64,8 +70,9 @@ body{
 .titleSpace{
     width: 50%;
 }
-.title{
+.titleMaxima{
     /* position: relative; */
+    height: 49px;
     margin: 0;
     align-self: flex-end;
 }
@@ -87,8 +94,9 @@ body{
     width: 50%;
 }
 
-.subTitle{
+.subTitleMaxima{    
     margin: 0;
+    font-size: var(--titlesSize);
 }
 
 
@@ -158,4 +166,31 @@ body{
     color: #000;
     text-decoration: none;
     bottom: 19px;
+}
+
+.title{
+    font-size: var(--titlesSize);
+}
+.subTitle{
+    font-size: var(--subSize);
+}
+
+.subTitleH2{
+    font-size: var(--subSizeH2);
+}
+
+.subTitleH3{
+    font-size: var(--subSizeH3);
+}
+
+.text{
+    font-size: var(--textSize);
+}
+
+
+
+
+@media screen and (max-width: 800px) {
+
+
 }
