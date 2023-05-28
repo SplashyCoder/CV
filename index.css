@@ -324,21 +324,26 @@ header{
         width: fit-content;
     }
 
-    .container{
-        padding: 20px;
-        padding-top: 200px;
-        background-color: #000;
-        color: var(--text);
-        font-family: var(--titlesFont);
-
+    .conectPart{
+        height: fit-content;
     }
-
-    .conect{
-        display: inline;
-    }
+    
     .conection{
-        font-size: 13px;
-        text-align: center;
+        position: relative;
+        color: #000;
+        text-decoration: none;
+        bottom: 19px;
+    }
+    .conect{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .link{
+        display: none;
+    }
+    .mailImg{
+        display: none;
     }
 
 
