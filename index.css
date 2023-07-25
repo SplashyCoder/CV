@@ -156,6 +156,10 @@ header{
     text-decoration: none;
 }
 
+.webs{
+    display: flex;
+}
+
 
 .footer{
     background-color: #fff;
@@ -169,10 +173,21 @@ header{
 }
 
 .conection{
+    display: flex;
     position: relative;
     color: #000;
     text-decoration: none;
     bottom: 19px;
+    align-items: center;
+}
+
+.conection>img{
+    height: 50px;
+    width: 50px;
+}
+
+.link{
+    margin: 0;
 }
 
 .title{
