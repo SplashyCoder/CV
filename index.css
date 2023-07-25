@@ -50,7 +50,7 @@ header{
     width: 200px;
     border: #FFFF00 solid 5px;
     overflow-y: hidden;
-
+    overflow-x: hidden
 }
 .photo{
     /* top: 5px; */
@@ -59,6 +59,7 @@ header{
     height: 160%;
     width: 150%;
     left: -50px;
+    
 }
 
 
